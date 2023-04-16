@@ -1,0 +1,13 @@
+.bottom{
+    height: 3rem;
+    position: sticky;
+    bottom:0;
+    display: flex;
+    justify-content: space-around;
+    margin: .5rem -1rem 1.5rem -1rem;
+    background-color: #fff;
+}
+
+.bottom svg{
+    margin-top: .5rem;
+}

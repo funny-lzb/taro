@@ -1,0 +1,15 @@
+.myMenu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.myMenu .menu{
+    overflow: hidden;
+    height: 1.5rem;
+    width: 80vw;
+}
+.myMenu a:last-child{
+    margin-right: 0px;
+}
+

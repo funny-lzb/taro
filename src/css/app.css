@@ -1,0 +1,60 @@
+@import './head.css';
+@import './myMenu.css';
+@import './litteWhite.css';
+@import './item.css';
+@import './bottom.css';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 18px;
+  }
+  
+  body {
+    height: 100vh;
+    padding: 0;
+    margin: 0; 
+    background-color: #e9e5e5;
+}
+
+ul{
+  padding-left: 0 !important; 
+}
+
+li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+h4{
+    color: #c1bdbd;
+    font-weight: 700;
+    line-height: 0.5;
+}
+
+a{
+  color: #c1bdbd;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+a:hover{
+  color: rgba(2, 59, 152, 0.979);
+}
+
+.navbar {
+  position: sticky;
+  top:0;
+  background-color: #f1ecec;
+}
+
+svg{
+  padding-top: 2px;
+}

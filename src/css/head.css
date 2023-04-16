@@ -1,0 +1,19 @@
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head h4:first-child{
+    margin-right: .5rem;
+}
+
+.head h4:last-child{
+    margin-left: .5rem;
+}
+
+.head .ciclePlus{
+    position: fixed;
+    right: 1rem;
+}
+

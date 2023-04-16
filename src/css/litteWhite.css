@@ -1,0 +1,9 @@
+.little-white-frame-work{
+    display: flex;
+    justify-content:space-between;
+    width: 48vw;    
+    border-radius: 10px;
+    margin-right: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+}
