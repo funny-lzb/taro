@@ -16,7 +16,7 @@
     height: 100vh;
     padding: 0;
     margin: 0; 
-    background-color: #e9e5e5;
+    background-color: #f1ecece5;
 }
 
 ul{
@@ -34,19 +34,19 @@ a{
 }
 
 h4{
-    color: #c1bdbd;
-    font-weight: 700;
+    color: #9d9a9a;
+    font-weight: 550;
     line-height: 0.5;
 }
 
 a{
-  color: #c1bdbd;
+  color:  #9d9a9a;
   font-size: 1rem;
   margin-right: 1rem;
 }
 
 a:hover{
-  color: rgba(2, 59, 152, 0.979);
+  color:  rgb(2, 94, 175);
 }
 
 .navbar {
@@ -57,4 +57,56 @@ a:hover{
 
 svg{
   padding-top: 2px;
+}
+
+.blue{
+  color: rgb(0, 128, 240);
+}
+
+.dot-on-right {
+  position: relative;
+}
+
+.dot-on-right::after {
+  content: "";
+  display: block;
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: -.5rem;
+  width: 7px;
+  height: 7px;
+}
+
+.dot-on-right-svg {
+  position: relative;
+}
+
+.dot-on-right-svg::after{
+  content: "";
+  display: block;
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: .5rem;
+  right:0;
+  width: 7px;
+  height: 7px;
+}
+
+.gray{
+  color: #6d6363;
+  line-height: 2;
+  font-size: .85rem;
+  font-weight: 600;
+}
+
+.gray-lower{
+  color: #c7c3c3;
+  line-height: 2;
+  font-size: .6rem;
+  font-weight: 400;
 }

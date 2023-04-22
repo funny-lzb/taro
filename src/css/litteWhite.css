@@ -1,9 +1,59 @@
 .little-white-frame-work{
     display: flex;
+    width: 10rem;
     justify-content:space-between;
-    width: 48vw;    
+    max-height: 3.2rem;   
     border-radius: 10px;
     margin-right: 1rem;
     padding: 1rem;
     background-color: #fff;
 }
+
+.little-white-frame-work span:nth-child(1){
+    overflow: hidden;
+    font-size: .8rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.little-white-frame-work  span:last-child{
+  position: relative;
+  top: -.1rem;
+}
+
+
+.container {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    left: 1rem;
+    top: -.3rem;
+  }
+  
+  .image1,
+  .image2,
+  .image3 {
+    position: absolute;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .image1 {
+    top: .5rem;
+    left: 0rem;
+    z-index: 3;
+  }
+  
+  .image2 {
+    top: .5rem;
+    left: .5rem;
+    z-index: 2;
+  }
+  
+  .image3 {
+    top: .5rem;
+    left: 1rem;
+    z-index: 1;
+  }
+  

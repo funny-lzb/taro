@@ -4,6 +4,20 @@ export default function LittleWhiteFrameWork({ data }) {
   return (
     <div className='little-white-frame-work'>
       <span>{data}</span>
+
+      <span>
+        {' '}
+        {data === '朋友的想法' ? (
+          <div class='container'>
+            <img src='src/imgs/user1.jpg' alt='image1' className='image1' />
+            <img src='src/imgs/user1.jpg' alt='image2' className='image2' />
+            <img src='src/imgs/user1.jpg' alt='image3' className='image3' />
+          </div>
+        ) : (
+          ''
+        )}
+      </span>
+
       <span>
         <svg
           t='1681629296589'

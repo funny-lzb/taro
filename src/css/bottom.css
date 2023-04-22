@@ -11,3 +11,13 @@
 .bottom svg{
     margin-top: .5rem;
 }
+
+.flex-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item span{
+    font-size: .4rem;
+    color: #6d6363;
+}

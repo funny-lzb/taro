@@ -12,10 +12,10 @@
 
 .item-head-img{
     margin-top: .2rem;
-    width: 1rem;
-    height: 1rem;
+    width: 1.3rem;
+    height: 1.3rem;
     border-radius: 50%;
-    border: 1px solid #ccc;
+    border: 1px ;
     background-image: url('src/imgs/user1.jpg');
     background-size: cover;
     background-position: center;
@@ -31,19 +31,24 @@
 }
 
 .item-content{
-    margin-top: 1rem;
+    margin-top: .5rem;
 }
 
 .item-content-link{
     margin-top: 1rem;
 }
 
+.item-content-link svg{
+    padding-top: .3rem;
+}
+
 .item-content-link span{
     margin-right: 1rem;
     padding: .5rem;
-    border-radius: 10px;
-    background-color: #ccc;
     font-size: .2rem;
+    border-radius: 1rem;
+    color: #585252;
+    background-color: #eeecec;
 }
 
 .item-content-functionList{
@@ -52,24 +57,48 @@
     margin-top: 1rem;
 }
 
+.item-content-functionList span{
+    color: #6d6363;
+}
+
+.item-content-functionList svg{
+    padding-top: .1rem;
+}
+
 .item-content-functionList svg:first-child{
     margin-left: 10vw;
 }
 
 .item-comment{
-    background-color: #c1bdbd;
+    background-color: #e9e1e1;
     margin-top: 1rem;
     padding: .5rem;
     border-radius: 10px;
 }
+
 .item-comment .item-head{
     margin-bottom: 1rem;
 }
+.item-comment .item-head-name{
+    color:#6d6363;
+    font-size: .7rem;
+    padding-top: .3rem
+}
 
 .item-comment .item-head-load{
-    border-radius: 5px;
+    width: 3.5rem;
     padding: 5px;
-    background-color: #fff;
+    border-radius: 1rem;
     font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1;
     color: red;
+    background-color: #fff;
+}
+
+.item-comment  .item-content{
+    margin-top: -.5rem;
+    font-size: .8rem;
+    color: #6d6363;
 }

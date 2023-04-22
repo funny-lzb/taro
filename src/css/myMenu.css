@@ -9,7 +9,12 @@
     height: 1.5rem;
     width: 80vw;
 }
+
 .myMenu a:last-child{
     margin-right: 0px;
 }
 
+.expand-span{
+    position: relative;
+    bottom: .2rem;
+}
